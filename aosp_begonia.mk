@@ -12,14 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from begonia device
 $(call inherit-product, device/redmi/begonia/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Aosp stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := redmi
 PRODUCT_DEVICE := begonia
 PRODUCT_MANUFACTURER := redmi
-PRODUCT_NAME := lineage_begonia
+PRODUCT_NAME := aosp_begonia
 PRODUCT_MODEL := Redmi Note 8 Pro
 
 PRODUCT_GMS_CLIENTID_BASE := android-redmi
