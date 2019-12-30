@@ -6,7 +6,7 @@
 
 BOARD_VENDOR := xiaomi
 
-DEVICE_PATH := device/xiaomi/begonia
+DEVICE_PATH := device/redmi/begonia
 
 # Architecture
 TARGET_ARCH := arm64
@@ -58,7 +58,6 @@ TARGET_KERNEL_VERSION := 4.14
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_COMPILE_WITH_MSM_KERNEL := true
-PRODUCT_COPY_FILES += device/xiaomi/begonia/kernel:kernel
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6785
