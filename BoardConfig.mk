@@ -52,8 +52,8 @@ BOARD_DTBOIMG_PARTITION_SIZE := 0x2000000
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-#TARGET_KERNEL_SOURCE := kernel/xiaomi/begonia
-#TARGET_KERNEL_CONFIG := kernel/xiaomi/begonia/arch/arm64/configs/begonia_user_defconfig
+TARGET_KERNEL_SOURCE := kernel/redmi/begonia
+TARGET_KERNEL_CONFIG := begonia_user_defconfig
 TARGET_KERNEL_VERSION := 4.14
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
@@ -215,8 +215,7 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /system/etc:/etc \
     /sbin/charger:/charger \
     /system/etc/prop.default:/default.prop \
-    /storage/self/primary:/sdcard 
-    
+    /storage/self/primary:/sdcard
 
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
