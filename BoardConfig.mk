@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-BOARD_VENDOR := xiaomi
+BOARD_VENDOR := redmi
 
 DEVICE_PATH := device/redmi/begonia
 
@@ -231,7 +231,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6785
 
 # Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_xiaomi
+TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_redmi
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # RenderScript
@@ -271,4 +271,4 @@ TARGET_USES_OLD_MNC_FORMAT := true
 #WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/xiaomi/begonia/BoardConfigVendor.mk
+-include vendor/redmi/begonia/BoardConfigVendor.mk

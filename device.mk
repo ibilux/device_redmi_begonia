@@ -5,7 +5,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/xiaomi/begonia/begonia-vendor.mk)
+$(call inherit-product-if-exists, vendor/redmi/begonia/begonia-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -182,7 +182,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint feature
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sm6150
+    android.hardware.biometrics.fingerprint@2.1-service.redmi_sm6150
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
@@ -249,7 +249,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_sm6150
+    android.hardware.light@2.0-service.redmi_sm6150
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
@@ -350,7 +350,7 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_xiaomi
+    librecovery_updater_redmi
 
 # RIL
 PRODUCT_PACKAGES += \

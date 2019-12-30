@@ -29,4 +29,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="begonia" \
     TARGET_DEVICE="begonia"
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-redmi

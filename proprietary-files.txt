@@ -380,7 +380,7 @@ vendor/lib64/camera/components/com.qti.node.sr.so
 vendor/lib64/camera/components/com.qti.node.stich.so
 vendor/lib64/camera/components/com.qti.node.swcac.so
 vendor/lib64/camera/components/com.qti.node.swregistration.so
-vendor/lib64/camera/components/com.qti.node.xiaomigenderage.so
+vendor/lib64/camera/components/com.qti.node.redmigenderage.so
 vendor/lib64/camera/components/com.qti.stats.aec.so
 vendor/lib64/camera/components/com.qti.stats.af.so
 vendor/lib64/camera/components/com.qti.stats.afd.so
@@ -398,7 +398,7 @@ vendor/lib64/camera/components/com.qtistatic.stats.awb.so
 vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/com.vidhance.node.eis.so
 vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so
-vendor/lib64/camera/components/com.xiaomi.node.mibokeh.so
+vendor/lib64/camera/components/com.redmi.node.mibokeh.so
 vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libmmcamera_cac3.so
 vendor/lib64/camera/components/model_back.dlc
@@ -1045,11 +1045,11 @@ vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 
 # Mlipay - from violet PKQ1.181203.001 V10.3.9.0.PFHINXM
 vendor/bin/mlipayd@1.1|d3129c961cf24785e01d3615ab5716bd5703cebc
-vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781b5911c0595eaeac8b80ea
+vendor/etc/init/vendor.redmi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781b5911c0595eaeac8b80ea
 vendor/lib64/libmlipay.so|38cc028209b0d4503210539649b3590f471dddc0
 vendor/lib64/libmlipay@1.1.so|d6090b84f53db3bad09d86d9b3955d2e71f3708d
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so|bcd74afe1002827f017eda1ed3c5412874711a6e
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|8f25b37df26cab5c11b3b32faaee3903628aed88
+vendor/lib64/vendor.redmi.hardware.mlipay@1.0.so|bcd74afe1002827f017eda1ed3c5412874711a6e
+vendor/lib64/vendor.redmi.hardware.mlipay@1.1.so|8f25b37df26cab5c11b3b32faaee3903628aed88
 
 # Neural-networks - from LA.UM.7.9.r1-06100-sm6150.0
 vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-qti|f6ea3195dd5a14d238cc7884f740c08130c7e685

@@ -42,7 +42,7 @@ def AddBasebandAssertion(info, input_zip):
     timestamps = timestamp.split('|')
     if ((len(timestamps) and '*' not in timestamps) and \
         (len(firmware_version) and '*' not in firmware_version)):
-      cmd = 'assert(xiaomi.verify_baseband(' + ','.join(['"%s"' % baseband for baseband in timestamps]) + ') == "1" || abort("ERROR: This package requires firmware from MIUI {1} or newer. Please upgrade firmware and retry!"););'
+      cmd = 'assert(redmi.verify_baseband(' + ','.join(['"%s"' % baseband for baseband in timestamps]) + ') == "1" || abort("ERROR: This package requires firmware from MIUI {1} or newer. Please upgrade firmware and retry!"););'
       info.script.AppendExtra(cmd.format(timestamps, firmware_version))
   return
 
