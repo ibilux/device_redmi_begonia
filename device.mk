@@ -311,27 +311,35 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/rootdir/init.miui.cust.rc:root/init.miui.cust.rc \
-	$(LOCAL_PATH)/rootdir/init.miui.post_boot.sh:root/init.miui.post_boot.sh \
-	$(LOCAL_PATH)/rootdir/init.miui.early_boot.sh:root/init.miui.early_boot.sh \
-	$(LOCAL_PATH)/rootdir/init.miui.rc:root/init.miui.rc \
-	$(LOCAL_PATH)/rootdir/init.miui.google_revenue_share.rc:root/init.miui.google_revenue_share.rc \
-	$(LOCAL_PATH)/rootdir/init.recovery.hardware.rc:root/init.recovery.hardware.rc \
-	$(LOCAL_PATH)/rootdir/ueventd.rc:root/ueventd.rc \
-	$(LOCAL_PATH)/rootdir/init.miui.google_revenue_share_v2.rc:root/init.miui.google_revenue_share_v2.rc \
-	$(LOCAL_PATH)/rootdir/init.usb.configfs.rc:root/init.usb.configfs.rc \
-	$(LOCAL_PATH)/rootdir/verity_key:root/verity_key \
-	$(LOCAL_PATH)/rootdir/fstab.enableswap:root/fstab.enableswap \
-	$(LOCAL_PATH)/rootdir/init.miui.nativedebug.rc:root/init.miui.nativedebug.rc \
-	$(LOCAL_PATH)/rootdir/init.usb.rc:root/init.usb.rc \
-	$(LOCAL_PATH)/rootdir/res/images/charger/battery_fail.png:root/res/images/charger/battery_fail.png \
-	$(LOCAL_PATH)/rootdir/res/images/charger/battery_scale.png:root/res/images/charger/battery_scale.png \
-	$(LOCAL_PATH)/rootdir/sbin/charger:root/sbin/charger \
-	$(LOCAL_PATH)/rootdir/sbin/setlockstate:root/sbin/setlockstate \
-	$(LOCAL_PATH)/rootdir/etc/mke2fs.conf:recovery/etc/mke2fs.conf \
-	$(LOCAL_PATH)/rootdir/miui.factoryreset.fstab:recovery/miui.factoryreset.fstab \
-	$(LOCAL_PATH)/rootdir/miui.factoryreset.rc:recovery/miui.factoryreset.rc \
-	$(LOCAL_PATH)/rootdir/init.recovery.mt6785.rc:recovery/init.recovery.mt6785.rc 
+    capture.sh \
+    capture_headsetmic.sh \
+    playback.sh \
+    playback_headset.sh \
+    setup_headset2rcv.sh \
+    setup_headsetmic2headphone.sh \
+    setup_mainmic2headphone.sh \
+    setup_topmic2headphone.sh \
+    teardown_loopback.sh \
+    tp_data_collect.sh \
+    tp_selftest.sh \
+    factory_init.connectivity.rc \
+    factory_init.project.rc \
+    factory_init.rc \
+    init.aee.rc \
+    init.ago.rc \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6785.rc \
+    init.mt6785.usb.rc \
+    init.project.rc \
+    init.sensor_1_0.rc \
+    meta_init.connectivity.rc \
+    meta_init.modem.rc \
+    meta_init.project.rc \
+    meta_init.rc \
+    multi_init.rc \
+    fstab.mt6785 \
+    ueventd.qcom.rc
 
 # RCS
 PRODUCT_PACKAGES += \
